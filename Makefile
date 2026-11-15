@@ -1,8 +1,7 @@
 .PHONY: init
 init: _opam/
 	eval $(opam env)
-	opam install dune=3.24.2
-	opam install ocaml-lsp-server odoc ocamlformat utop
+	opam install dune ocaml-lsp-server odoc ocamlformat utop
 
 .PHONY: clean
 clean:
