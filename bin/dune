@@ -1,0 +1,4 @@
+(executable
+ (name advent_of_code)
+ (public_name advent_of_code)
+ (libraries stdio solution))
