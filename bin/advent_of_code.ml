@@ -26,7 +26,6 @@ let () =
   match (input, get_arg "--part") with
   | _, None -> print_endline "Must specify --part=<1 or 2>"
   | None, _ -> print_endline "Must specify --input=<path/to/input.txt>"
-  | Some "", _ -> print_endline ""
   | Some input, Some "1" -> solve Part_One ~input |> print_endline
   | Some input, Some "2" -> solve Part_Two ~input |> print_endline
   | _, Some part -> "Invalid --part (" ^ part ^ ") must be 1 or 2" |> print_endline

@@ -2,3 +2,4 @@ _build/
 _opam/
 inputs/*
 !**/*.gitkeep
+advent_of_code
