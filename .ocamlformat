@@ -1,7 +1,15 @@
 profile = ocamlformat
-break-cases = fit
-margin = 120
-wrap-comments = true
+
+break-cases = toplevel
+single-case = sparse
+break-sequences = true
+break-struct = force
+if-then-else = vertical
+module-item-spacing = sparse
+margin = 1000
+wrap-comments = false
+break-string-literals = never
 line-endings = lf
+
 version = ignore
 version-check = false

@@ -11,4 +11,6 @@ let part_one ~input:_ = "Not implemented"
 
 let part_two ~input:_ = "Not implemented"
 
-let solution = function Part_One -> part_one | Part_Two -> part_two
+let solution = function
+  | Part_One -> part_one
+  | Part_Two -> part_two
